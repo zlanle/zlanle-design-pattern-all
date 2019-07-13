@@ -2,24 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d705cc90-6685-4957-a823-0cd4435a7bb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/StaticProxyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/House.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/HouseMaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/MiddleCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/zlanle/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/zlanle/App.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/zlanle/AppTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zlanle-design-pattern-all.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/SmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/TimelySmsSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendMailFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendSmsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendTimelySmsFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/method_factory/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/method_factory/SendFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple_factory/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple_factory/SendFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/FactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/SendFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodInnerLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonSimple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zlanle/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/zlanle/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/zlanle/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,68 +38,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="110">
+              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Person.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodInnerLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="183">
+              <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Son.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/House.java">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/StaticProxyFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#401#402#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/MiddleCompany.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Father.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -106,6 +89,31 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Son.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo2/House.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/StaticProxyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple/Sender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple/SmsSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/method/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple/SendFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/method/SendFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple_factory/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/SendFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/MailFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendSmsFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/TimelySms.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendTimelyFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendTimelySmsFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/FactoryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/Provider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendMailFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonSimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodInnerLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zlanle/singleton/Singleton.java" />
       </list>
     </option>
   </component>
@@ -122,16 +130,17 @@
     <option name="vmOptions" value="-Xms256m -Xmx1024m -Duser.language=zh -Dfile.encoding=UTF-8" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="498" />
-    <option name="y" value="57" />
-    <option name="width" value="983" />
-    <option name="height" value="521" />
+    <option name="x" value="496" />
+    <option name="y" value="55" />
+    <option name="width" value="985" />
+    <option name="height" value="523" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,24 +148,62 @@
               <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zlanle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zlanle-design-pattern-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zlanle-design-pattern-all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zlanle" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562839084259" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563005428289" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zlanle.singleton" />
+      <recent name="com.zlanle.factory.static_factory" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\gupao_source\zlanle-design-pattern-all\src\main\java\com\zlanle\proxy\statical" />
       <recent name="D:\gupao_source\zlanle-design-pattern-all\src\main\java\com\zlanle\proxy\statical\demo2" />
@@ -175,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SingletonTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zlanle.App" />
       <module name="zlanle-design-pattern-all" />
@@ -189,8 +236,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlanle.factory.simple_factory.FactoryTest" />
+      <module name="zlanle-design-pattern-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlanle.factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlanle.factory.method_factory.FactoryTest" />
+      <module name="zlanle-design-pattern-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlanle.factory.method_factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zlanle.singleton.SingletonTest" />
+      <module name="zlanle-design-pattern-all" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zlanle.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingletonTest" />
+        <item itemvalue="Application.FactoryTest (1)" />
+        <item itemvalue="Application.FactoryTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -208,16 +297,19 @@
       <workItem from="1562835784051" duration="1269000" />
       <workItem from="1562837708391" duration="1377000" />
       <workItem from="1562993515876" duration="595000" />
+      <workItem from="1562997258619" duration="43000" />
+      <workItem from="1562997317181" duration="6890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3241000" />
+    <option name="totallyTimeSpent" value="10174000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-7" y="-7" width="2062" height="1126" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18456884" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18812375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -226,8 +318,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32886598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -235,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32886598" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="13" />
@@ -258,20 +350,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -305,6 +383,277 @@
           <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/proxy/statical/demo1/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/SmsSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/method_factory/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zlanle.factory.simple.SendFactory">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zlanle.factory.simple.SendFactory</OriginalElement>
+          <nodes>
+            <node x="" y="">com.zlanle.factory.simple.SendFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="60.0" y="15.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.zlanle.factory.Sender">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.zlanle.factory.Sender</OriginalElement>
+          <nodes>
+            <node x="0.0" y="80.0">com.zlanle.factory.MailSender</node>
+            <node x="79.25" y="0.0">com.zlanle.factory.Sender</node>
+            <node x="134.0" y="80.0">com.zlanle.factory.SmsSender</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.zlanle.factory.SmsSender" target="com.zlanle.factory.Sender">
+              <point x="0.0" y="-15.0" />
+              <point x="190.5" y="55.0" />
+              <point x="146.0" y="55.0" />
+              <point x="22.25" y="15.0" />
+            </edge>
+            <edge source="com.zlanle.factory.MailSender" target="com.zlanle.factory.Sender">
+              <point x="0.0" y="-15.0" />
+              <point x="57.0" y="55.0" />
+              <point x="101.5" y="55.0" />
+              <point x="-22.25" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-529.0" y="-44.5" />
+          <SelectedNodes>
+            <node>com.zlanle.factory.MailSender</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple_factory/SendFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/method_factory/SendFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/simple_factory/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/static_factory/SendFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendSmsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/TimelySmsSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendTimelySmsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/FactoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/factory/abstract_factory/SendMailFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonSimple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_51/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#184#372#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/SingletonMethodInnerLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="16" column="61" selection-start-line="16" selection-start-column="61" selection-end-line="16" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zlanle/singleton/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#401#402#0" expanded="true" />
           </folding>
         </state>
       </provider>
