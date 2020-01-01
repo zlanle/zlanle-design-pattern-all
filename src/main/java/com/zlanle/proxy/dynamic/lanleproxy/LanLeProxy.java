@@ -85,7 +85,8 @@ public class LanLeProxy {
                 sb.append("public " + method.getReturnType().getName() + " " + method.getName() + "("+ paramNames.toString() +") {" + ln);
                     sb.append("try {" + ln);
                         sb.append("Method m = " + interfaces[0].getName() + ".class.getMethod(\""+ method.getName() + "\",new Class[]{"+ paramClasses.toString() +"});" + ln);
-                        sb.append((hasReturnValue(method.getReturnType()) ? "return " : "") + getCaseCode("this.h.invoke(this,m,new Object[]{"+ paramValues +"})",method.getReturnType()) + ";" + ln);
+                        sb.append((hasReturnValue(method.getReturnType()) ? "return " : "")
+                                + getCaseCode("this.h.invoke(this,m,new Object[]{"+ paramValues +"})",method.getReturnType()) + ";" + ln);
                     sb.append("} catch (Error _ex) {");
                     sb.append("} catch(Throwable e){" + ln);
                     sb.append("throw new UndeclaredThrowableException(e);" +ln);
@@ -108,11 +109,11 @@ public class LanLeProxy {
      */
     private static String getReturnEmptyCode(Class<?> returnClass){
         if(mappings.containsKey(returnClass)){
-            return "return 0";
+            return "return 0;";
         }else if(returnClass == void.class){
             return "";
         }else{
-            return "return null";
+            return "return null;";
         }
     }
 

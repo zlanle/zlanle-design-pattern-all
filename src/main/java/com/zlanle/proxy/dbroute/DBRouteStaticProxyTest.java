@@ -3,7 +3,9 @@ package com.zlanle.proxy.dbroute;
 import com.zlanle.proxy.dbroute.Order;
 import com.zlanle.proxy.dbroute.OrderDao;
 import com.zlanle.proxy.dbroute.OrderServiceImpl;
+import com.zlanle.proxy.dbroute.proxy.OrderServiceDynamicProxy;
 import com.zlanle.proxy.dbroute.proxy.OrderServiceStaticProxy;
+import com.zlanle.proxy.dynamic.DBRouteDynamicProxyTest;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -21,7 +23,11 @@ public class DBRouteStaticProxyTest {
 
         OrderDao orderDao = new OrderDao();
         OrderServiceImpl orderService = new OrderServiceImpl(orderDao);
-        OrderServiceStaticProxy orderServiceStaticProxy = new OrderServiceStaticProxy(orderService);
-        orderServiceStaticProxy.createOrder(order);
+        //静态代理
+//        OrderServiceStaticProxy orderServiceStaticProxy = new OrderServiceStaticProxy(orderService);
+ //       orderServiceStaticProxy.createOrder(order);
+        //动态代理
+        IOrderService orderService1 = (IOrderService)new OrderServiceDynamicProxy().getInstance(orderService);
+        orderService1.createOrder(order);
     }
 }
